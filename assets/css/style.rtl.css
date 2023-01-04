@@ -1,10 +1,14 @@
 html{
     direction: rtl;
+    overflow-x: hidden;
 }
 /******************************************Sign in page***************************/
 #kt_sign_in_form .form-content a.forget-password{
     margin-left: 0;
     margin-right: 115px;
+}
+#kt_sign_up_form .translate-middle {
+    transform: translate(-900%, -50%) !important;
 }
 /*****************************************Sign in page****************************/
 
@@ -28,5 +32,9 @@ html{
 @media (min-width: 300px) and (max-width: 766.5px){
     #kt_sign_in_form .form-content a.forget-password{
         margin-right: 8px;
+    }
+
+    #kt_sign_up_form .translate-middle {
+        transform: translate(-520%, -50%) !important;
     }
 }

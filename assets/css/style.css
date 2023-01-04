@@ -65,7 +65,9 @@ h1.text-dark{
     color: #0C1B32 !important;
     text-decoration: underline;
   }
-  #kt_sign_in_form .form-content .text-gray-500{
+  #kt_sign_in_form .form-content .text-gray-500,
+  .text-muted,
+  .link-primary{
     color: #0C1B32 !important;
   }
   #kt_sign_in_form .form-content .text-gray-500 a{

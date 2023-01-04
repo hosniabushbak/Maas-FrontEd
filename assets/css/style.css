@@ -72,6 +72,9 @@ h1.text-dark{
     color: #0C1B32 !important;
     font-weight: bold;
   }
+  .flex-center.our-style{
+    justify-content: start!important;
+  }
 /*******************Sign in page edit End**************************************/
 
 

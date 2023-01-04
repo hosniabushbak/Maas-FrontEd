@@ -26,7 +26,7 @@ body {
 h1.text-dark{
     border-radius: 20px;
     color: #0C1B32;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
   #kt_sign_in_form .form-content,
@@ -39,7 +39,7 @@ h1.text-dark{
     background-color: #FAF9FA !important;
     border-radius: 40px;
     height: 50px !important;
-    padding: 25px;
+    padding: 15px;
   }
  .btn.btn-primary,
  .btn-primary{

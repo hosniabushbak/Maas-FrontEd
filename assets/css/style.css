@@ -84,6 +84,10 @@ h1.text-dark{
  .bg-light.our-nav{
   background: transparent !important;
  }
+ 
+ .navbar-expand-lg .navbar-collapse{
+  flex-direction: row-reverse;
+ }
 /*******************Sign in page edit End**************************************/
 
 

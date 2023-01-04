@@ -80,7 +80,10 @@ h1.text-dark{
   .flex-center.our-style{
     justify-content: start!important;
   }
- 
+
+ .bg-light.our-nav{
+  background: transparent !important;
+ }
 /*******************Sign in page edit End**************************************/
 
 

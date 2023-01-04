@@ -1,0 +1,32 @@
+html{
+    direction: rtl;
+}
+/******************************************Sign in page***************************/
+#kt_sign_in_form .form-content a.forget-password{
+    margin-left: 0;
+    margin-right: 115px;
+}
+/*****************************************Sign in page****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************Mobile**********************************/
+@media (min-width: 300px) and (max-width: 766.5px){
+    #kt_sign_in_form .form-content a.forget-password{
+        margin-right: 8px;
+    }
+}

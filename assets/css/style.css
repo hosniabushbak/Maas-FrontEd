@@ -49,16 +49,64 @@ h1.text-dark{
     background-color: #FAF9FA !important;
     border-radius: 40px;
     height: 50px !important;
-    padding: 30px;
+    padding: 25px;
   }
-  #kt_sign_in_form .form-content .btn.btn-primary{
-    background-color: #462768 !important;
+ .btn.btn-primary,
+ .btn-primary{
+    background-color: #462768!important;
     color: #fff;
     border-radius: 40px;
     height: 50px !important;
   }
-  #kt_sign_in_form .form-content .btn.btn-primary:hover{
-    background-color: #241239 !important;
+  .btn.btn-primary:hover:not(.btn-active){
+    background-color: #241239!important;
   }
 
+  #kt_sign_in_form .form-content .keep-sign{
+    display: inline-block;
+  }
+  #kt_sign_in_form .form-content .keep-sign{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #kt_sign_in_form .form-content a.forget-password{
+    display: inline-block;
+    margin-left: 115px;
+    color: #0C1B32 !important;
+    text-decoration: underline;
+  }
+  #kt_sign_in_form .form-content .text-gray-500{
+    color: #0C1B32 !important;
+  }
+  #kt_sign_in_form .form-content .text-gray-500 a{
+    color: #0C1B32 !important;
+    font-weight: bold;
+  }
 /*******************Sign in page edit End**************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************mobile*******************************/
+@media (min-width: 300px) and (max-width: 766.5px){
+    #kt_sign_in_form .form-content a.forget-password{
+        margin-left: 10px;
+        font-size: 8px;
+    }
+    .form-check-custom .form-check-label{
+        font-size: 12px;
+    }
+}

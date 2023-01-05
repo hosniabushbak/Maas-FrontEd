@@ -37,7 +37,8 @@ h1.text-dark{
     margin-left: 20px;
   }
   #kt_sign_in_form .form-control,
-  #kt_sign_up_form .form-control{
+  #kt_sign_up_form .form-control,
+  #kt_new_password_form .form-control{
     background-color: #FAF9FA !important;
     border-radius: 40px;
     height: 50px !important;

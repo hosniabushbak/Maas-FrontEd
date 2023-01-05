@@ -39,4 +39,18 @@ html{
     #kt_new_password_form .translate-middle {
         transform: translate(-520%, -50%) !important;
     }
+
+    .dropdown-menu[data-bs-popper]{
+        left: 0;
+        right: unset;
+      }
+}
+
+
+/**********************************************ibad********************************/
+@media(min-width:768px) and (max-width:1024px){
+    .dropdown-menu[data-bs-popper]{
+        left: 0;
+        right: unset;
+      }
 }

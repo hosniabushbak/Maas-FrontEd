@@ -120,4 +120,19 @@ h1.text-dark{
     .form-check-custom .form-check-label{
         font-size: 12px;
     }
+    .dropdown-menu[data-bs-popper]{
+      left: unset;
+      right: 0;
+    }
+}
+
+
+
+/**********************************************ibad********************************/
+@media(min-width:768px) and (max-width:1024px){
+  .dropdown-menu[data-bs-popper]{
+    left: unset;
+    right: 0;
+  }
+
 }

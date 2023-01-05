@@ -1,6 +1,14 @@
+@font-face {
+    font-family: ArabicFont-Regular;
+    src: url('../plugins/global/fonts/fonts/ArabicFont-Regular.ttf');
+}
 html{
     direction: rtl;
     overflow-x: hidden;
+    font-family: ArabicFont-Regular !important;
+}
+body{
+    font-family: ArabicFont-Regular !important;   
 }
 /******************************************Sign in page***************************/
 #kt_sign_in_form .form-content a.forget-password{

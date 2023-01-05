@@ -11,7 +11,8 @@ body {
 }
 
 #kt_sign_in_form,
-#kt_sign_up_form{
+#kt_sign_up_form,
+#kt_new_password_form{
     background: #fff;
     border-radius: 20px;
     padding-bottom: 40px;
@@ -30,7 +31,8 @@ h1.text-dark{
 }
 
   #kt_sign_in_form .form-content,
-  #kt_sign_up_form .form-content{
+  #kt_sign_up_form .form-content,
+  #kt_new_password_form .form-content{
     margin-right: 20px;
     margin-left: 20px;
   }

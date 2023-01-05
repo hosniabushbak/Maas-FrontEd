@@ -7,7 +7,8 @@ html{
     margin-left: 0;
     margin-right: 115px;
 }
-#kt_sign_up_form .translate-middle {
+#kt_sign_up_form .translate-middle,
+#kt_new_password_form .translate-middle {
     transform: translate(-900%, -50%) !important;
 }
 /*****************************************Sign in page****************************/
@@ -34,7 +35,8 @@ html{
         margin-right: 8px;
     }
 
-    #kt_sign_up_form .translate-middle {
+    #kt_sign_up_form .translate-middle,
+    #kt_new_password_form .translate-middle {
         transform: translate(-520%, -50%) !important;
     }
 }

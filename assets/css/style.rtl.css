@@ -11,6 +11,10 @@ html{
 #kt_new_password_form .translate-middle {
     transform: translate(-900%, -50%) !important;
 }
+.languge-nav .dropdown-menu{
+    left: 0;
+    right: unset;
+   }
 /*****************************************Sign in page****************************/
 
 

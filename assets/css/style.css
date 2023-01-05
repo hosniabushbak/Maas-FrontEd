@@ -1,5 +1,6 @@
 body {
     background-color:#fff;
+    overflow-x: hidden;
 }
 
 /*******************Sign in page edit Start*************************************/
@@ -97,12 +98,12 @@ h1.text-dark{
   flex-direction: row-reverse;
  }
  
-/*
+
  .languge-nav .dropdown-menu{
   left: unset;
   right: 0;
  }
-*/
+
 
 #kt_password_reset_submit{
   width: 100%;

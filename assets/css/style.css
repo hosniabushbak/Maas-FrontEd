@@ -91,6 +91,13 @@ h1.text-dark{
  .navbar-expand-lg .navbar-collapse{
   flex-direction: row-reverse;
  }
+ /*.w-lg-500px.new-width{
+  width: 660px !important;
+ }*/
+
+ .select-languge{
+ flex-direction: row-reverse !important;
+ }
 /*******************Sign in page edit End**************************************/
 
 

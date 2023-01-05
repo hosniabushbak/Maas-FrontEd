@@ -12,7 +12,8 @@ body {
 
 #kt_sign_in_form,
 #kt_sign_up_form,
-#kt_new_password_form{
+#kt_new_password_form,
+#kt_password_reset_form {
     background: #fff;
     border-radius: 20px;
     padding-bottom: 40px;
@@ -26,19 +27,23 @@ body {
 }
 h1.text-dark{
     border-radius: 20px;
-    color: #0C1B32;
+    color: #0C1B32 !important;
     font-size: 2rem;
 }
-
+.text-gray-500{
+  color: #0C1B32 !important;
+}
   #kt_sign_in_form .form-content,
   #kt_sign_up_form .form-content,
-  #kt_new_password_form .form-content{
+  #kt_new_password_form .form-content,
+  #kt_password_reset_form .form-content{
     margin-right: 20px;
     margin-left: 20px;
   }
   #kt_sign_in_form .form-control,
   #kt_sign_up_form .form-control,
-  #kt_new_password_form .form-control{
+  #kt_new_password_form .form-control,
+  #kt_password_reset_form .form-control{
     background-color: #FAF9FA !important;
     border-radius: 40px;
     height: 50px !important;
@@ -92,7 +97,16 @@ h1.text-dark{
   flex-direction: row-reverse;
  }
  
- 
+/*
+ .languge-nav .dropdown-menu{
+  left: unset;
+  right: 0;
+ }
+*/
+
+#kt_password_reset_submit{
+  width: 100%;
+}
 /*******************Sign in page edit End**************************************/
 
 

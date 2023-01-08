@@ -23,6 +23,13 @@ body{
     left: 0;
     right: unset;
    }
+   .top-Notification {
+    margin-right: 0;
+    margin-left: 10px;
+   }
+   .top-Notification svg{
+          direction: ltr;
+   }
 /*****************************************Sign in page****************************/
 
 

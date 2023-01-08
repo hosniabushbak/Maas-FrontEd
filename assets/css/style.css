@@ -171,6 +171,42 @@ a.user-name{
   padding: 0 0.4rem;
   margin-bottom: 10px;
 }
+
+.aside-menu .menu .menu-item .menu-link.new-link{
+  background-color: #F7F8FC !important;
+  position: relative;
+}
+.aside-menu .menu .menu-item .menu-link.new-link:hover{
+  background-color: #5D3585 !important;
+  color: #fff !important;
+  border-right: 8px solid #3d8fb4 !important;
+}
+.aside-menu .menu .menu-item .menu-link.new-link:hover .menu-icon .svg-icon path{
+  color: #fff ;
+  fill:#fff;
+} 
+.aside-menu .menu .menu-item .menu-link.new-link .new-feature{
+  display: block;
+  background-color: #EC4321;
+  color: #fff;
+  border-radius: 26px;
+  padding: 2px 10px;
+  position: absolute;
+  right: 5%;
+  top: -36%;
+}
+
+.menu-link.interactive{
+  height: 275.48px;
+  background-image: url(../media/our-image/interactive.png);
+  background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+.aside-menu .menu .menu-item .menu-link.interactive:hover{
+  background-color:transparent !important;
+  border-right: none!important;
+}
 /*******************************************************Index page End**********************************/
 
 

@@ -186,7 +186,7 @@ a.user-name{
   fill:#fff;
 } 
 .aside-menu .menu .menu-item .menu-link.new-link .new-feature{
-  display: block;
+  display: inline-block;
   background-color: #EC4321;
   color: #fff;
   border-radius: 26px;

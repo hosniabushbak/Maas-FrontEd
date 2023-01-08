@@ -23,16 +23,19 @@ body{
     left: 0;
     right: unset;
    }
-   .top-Notification {
+ 
+/*****************************************Sign in page****************************/
+/***********************************************Index Page**************************/
+.top-Notification {
     margin-right: 0;
     margin-left: 10px;
    }
    .top-Notification svg{
           direction: ltr;
    }
-/*****************************************Sign in page****************************/
-
-
+.aside-menu .menu .menu-item .menu-link.new-link .new-feature{
+    right: 72%;
+}
 
 
 

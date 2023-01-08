@@ -194,6 +194,9 @@ a.user-name{
   position: absolute;
   right: 5%;
   top: -36%;
+  box-shadow: -4px 12px 20px -4px rgba(236,67,33,0.44);
+-webkit-box-shadow: -4px 12px 20px -4px rgba(236,67,33,0.44);
+-moz-box-shadow: -4px 12px 20px -4px rgba(236,67,33,0.44);
 }
 
 .menu-link.interactive{
@@ -206,6 +209,10 @@ a.user-name{
 .aside-menu .menu .menu-item .menu-link.interactive:hover{
   background-color:transparent !important;
   border-right: none!important;
+}
+/*******content ****/
+.content {
+  background: #F8F7FA;
 }
 /*******************************************************Index page End**********************************/
 

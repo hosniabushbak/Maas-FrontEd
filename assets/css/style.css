@@ -151,7 +151,7 @@ a.user-name{
 .aside-menu .menu .menu-item .menu-link.active{
   background-color: #5D3585;
   color: #fff !important;
-  /*border-right: 8px solid #3d8fb4 !important;*/s
+  /*border-right: 8px solid #3d8fb4 !important;*/
 }
 .aside-menu .menu .menu-item .menu-link.active .menu-title{
   color: #fff !important;

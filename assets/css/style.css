@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 
-/*******************Sign in page edit Start*************************************/
+/*******************authentication page edit Start*************************************/
 .h-130px{
     height: 130px !important;
 }
@@ -108,7 +108,38 @@ h1.text-dark{
 #kt_password_reset_submit{
   width: 100%;
 }
-/*******************Sign in page edit End**************************************/
+/*******************authentication page edit End**************************************/
+/*******************************************************Index page Start********************************/
+.header .header-brand{
+  background-color: #fff;
+}
+.h-lg-25px.logo-high{
+  height: 40px !important;
+}
+h1.text-dark a{
+  color: #131313;
+}
+.aside-user .symbol img{
+  border-radius: 50%;
+}
+a.user-name{
+  color: #131313 !important;
+}
+.svg-icon.svg-icon-1 svg.arrow {
+  height: 0.75rem !important;
+  width: 1.75rem !important;
+}
+.user-menu{
+  transform: translate(-23px, 65px) !important;
+}
+.top-Notification{
+  margin-right: 20px;
+}
+.aside-user.mobile-user{
+  display: none !important;
+}
+/*******************************************************Index page End**********************************/
+
 
 
 
@@ -138,6 +169,12 @@ h1.text-dark{
     .dropdown-menu[data-bs-popper]{
       left: unset;
       right: 0;
+    }
+    .aside-user.mobile-user{
+      display: block!important;
+    }
+    .aside-user.top-user{
+      display: none !important;
     }
 }
 

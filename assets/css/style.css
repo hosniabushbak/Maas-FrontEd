@@ -138,6 +138,39 @@ a.user-name{
 .aside-user.mobile-user{
   display: none !important;
 }
+.aside{
+  background-color: #fff;
+}
+
+.aside-menu .menu .menu-item .menu-link .menu-title{
+  color: #131313 !important;
+}
+.aside-menu .menu .menu-item .menu-link .menu-icon .svg-icon:hover{
+  color:#131313
+}
+.aside-menu .menu .menu-item .menu-link.active{
+  background-color: #5D3585;
+  color: #fff !important;
+  border-right: 8px solid #3d8fb4 !important;
+}
+.aside-menu .menu .menu-item .menu-link.active .menu-title{
+  color: #fff !important;
+}
+.aside-menu .menu .menu-item .menu-link.active .menu-icon .svg-icon{
+  color: #fff !important;
+}
+.aside-menu .menu .menu-item .menu-link:hover{
+  background-color: #5D3585 !important;
+  color: #fff !important;
+  border-right: 8px solid #3d8fb4 !important;
+}
+.aside-menu .menu .menu-item .menu-link:hover .menu-title{
+  color: #fff !important;
+}
+.aside-menu .menu > .menu-item {
+  padding: 0 0.4rem;
+  margin-bottom: 10px;
+}
 /*******************************************************Index page End**********************************/
 
 

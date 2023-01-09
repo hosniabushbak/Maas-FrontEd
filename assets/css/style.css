@@ -259,6 +259,12 @@ border:1px solid #371C52 !important;
   background-color: #fff;
   color: #371C52;
 }
+/*
+.add-role table.dataTable thead{
+  background: #F8F9FC !important;
+  color: #371C52 !important;
+}
+*/
 /*******************************************************add-role End********************/
 
 

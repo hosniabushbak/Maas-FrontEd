@@ -243,7 +243,22 @@ a.user-name{
 .add-role .table#kt_datatable_example_1{
   background-color: #F7F8FC;
 }
-.add-role 
+.add-role .table-buttun .btn{
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 5px 30px;
+  display: inline-block;
+  margin: 10px 10px;
+}
+.add-role .table-buttun .btn.save{
+  background-color: #371C52;
+  color: #fff;
+}
+.add-role .table-buttun .btn.cancel{
+border:1px solid #371C52 !important;
+  background-color: #fff;
+  color: #371C52;
+}
 /*******************************************************add-role End********************/
 
 

@@ -2,7 +2,12 @@ body {
     background-color:#fff;
     overflow-x: hidden;
 }
-
+.scrolltop{
+  background-color:#462768;
+}
+.scrolltop:hover{
+  background-color:#462768 !important;
+}
 /*******************authentication page edit Start*************************************/
 .h-130px{
     height: 130px !important;
@@ -216,7 +221,7 @@ a.user-name{
 }
 /*******************************************************Index page End**********************************/
 /*******************************************************add-role start******************/
-.add-role .table-title{
+.table-title{
   font-size: 20px;
   font-weight: 600;
   color: #371C52;
@@ -275,7 +280,53 @@ border:1px solid #371C52 !important;
   font-size: 16px;
 }
 /**************************************content page End**********************************/
-
+/*****************************************Add new User start*****************************/
+.new-user-form{
+  background: #fff;
+  border:1px solid #EEEEEE;
+  padding: 40px 70px;
+  margin-top: 35px;
+}
+.new-user-form h3{
+  font-size: 22px;
+  color: #222222;
+}
+.new-user-form span.note{
+  color: #EC4321;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.new-user-form #add-user{
+  margin-top: 20px;
+}
+.new-user-form #add-user input,
+.new-user-form #add-user select{
+  background-color: #fff !important;
+  border: 1px solid #F2F2F2;
+}
+.new-user-form #add-user .btn{
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 10px 10px;
+  border-bottom: none;
+}
+.new-user-form #add-user .btn.save{
+  background-color: #371C52;
+  color: #fff;
+}
+.new-user-form #add-user .btn.cancel{
+  border:1px solid #371C52 !important;
+    background-color: #fff;
+    color: #371C52;
+  }
+  .new-user-form #add-user .form-floating > .form-select{
+    padding-top: 0.4rem !important; 
+  }
+/*****************************************Add new user End********************************/
 
 
 

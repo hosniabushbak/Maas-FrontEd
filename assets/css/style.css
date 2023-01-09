@@ -281,6 +281,7 @@ border:1px solid #371C52 !important;
 }
 /**************************************content page End**********************************/
 /*****************************************Add new User start*****************************/
+
 .new-user-form{
   background: #fff;
   border:1px solid #EEEEEE;
@@ -298,15 +299,21 @@ border:1px solid #371C52 !important;
   padding-bottom: 20px;
   border-bottom: 1px solid #F2F2F2;
 }
-.new-user-form #add-user{
+.new-user-form .add-user{
   margin-top: 20px;
+  border:none !important;
 }
-.new-user-form #add-user input,
-.new-user-form #add-user select{
+
+.new-user-form .add-user input.form-control{
   background-color: #fff !important;
   border: 1px solid #F2F2F2;
+  border-radius: 5px !important;
 }
-.new-user-form #add-user .btn{
+.new-user-form .add-user .form-select{
+  margin-bottom: 25px;
+  border-radius: 5px !important;
+}
+.new-user-form .add-user .btn{
   background-color: #ccc;
   border-radius: 5px;
   padding: 10px 30px;
@@ -314,18 +321,16 @@ border:1px solid #371C52 !important;
   margin: 10px 10px;
   border-bottom: none;
 }
-.new-user-form #add-user .btn.save{
+.new-user-form .add-user .btn.save{
   background-color: #371C52;
   color: #fff;
 }
-.new-user-form #add-user .btn.cancel{
+.new-user-form .add-user .btn.cancel{
   border:1px solid #371C52 !important;
     background-color: #fff;
     color: #371C52;
   }
-  .new-user-form #add-user .form-floating > .form-select{
-    padding-top: 0.4rem !important; 
-  }
+ 
 /*****************************************Add new user End********************************/
 
 

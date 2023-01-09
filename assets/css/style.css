@@ -8,6 +8,9 @@ body {
 .scrolltop:hover{
   background-color:#462768 !important;
 }
+#kt_content_container{
+  padding-bottom: 50px;
+}
 /*******************authentication page edit Start*************************************/
 .h-130px{
     height: 130px !important;
@@ -287,6 +290,7 @@ border:1px solid #371C52 !important;
   border:1px solid #EEEEEE;
   padding: 40px 70px;
   margin-top: 35px;
+ /* margin-bottom: 50px;*/
 }
 .new-user-form h3{
   font-size: 22px;
@@ -302,6 +306,7 @@ border:1px solid #371C52 !important;
 .new-user-form .add-user{
   margin-top: 20px;
   border:none !important;
+
 }
 
 .new-user-form .add-user input.form-control{
@@ -330,7 +335,17 @@ border:1px solid #371C52 !important;
     background-color: #fff;
     color: #371C52;
   }
- 
+  .new-user-form .add-user .form-check{
+    padding-left: 0;
+  }
+
+  .new-user-form .add-user .form-check-custom.form-check-danger .form-check-input:checked {
+    background-color: #371C52;
+}
+.new-user-form .add-user .form-check-custom.form-check-danger span{
+  font-size:16px !important;
+  color: var(--bs-body-color);
+}
 /*****************************************Add new user End********************************/
 
 

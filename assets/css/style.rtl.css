@@ -41,7 +41,9 @@ body{
     text-align: right;
 }
 
-
+.new-user-form .add-user .form-check{
+    padding-right: 0;
+  }
 
 
 

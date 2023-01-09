@@ -215,7 +215,36 @@ a.user-name{
   background: #F8F7FA;
 }
 /*******************************************************Index page End**********************************/
+/*******************************************************add-role start******************/
+.add-role .table-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #371C52;
+  margin-top: 30px;
+}
+.add-role .add-rolespan.role-name{
+   color: #222222;
+   font-size: 22px;
+   display: inline-block;
+   padding: 0 10px;
+ 
+}
+.add-role .search-roll{
+  background-color: #fff;
+  margin-left: 20px;
+  padding: 10px !important;
+}
 
+.add-role .table#kt_datatable_example_1 thead{
+  background-color: #F8F9FC !important;
+  color: #371C52 !important;
+  text-align: center;
+}
+.add-role .table#kt_datatable_example_1{
+  background-color: #F7F8FC;
+}
+.add-role 
+/*******************************************************add-role End********************/
 
 
 

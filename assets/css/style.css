@@ -62,8 +62,8 @@ h1.text-dark{
  .btn-primary{
     background-color: #462768!important;
     color: #fff;
-    border-radius: 40px;
-    height: 50px !important;
+   /* border-radius: 40px;
+    height: 50px !important;*/
   }
   .btn.btn-primary:hover:not(.btn-active){
     background-color: #241239!important;
@@ -403,6 +403,11 @@ border-radius: 50%;
   font-size: 0.9rem;
   text-align: center;
 }
+.users-page .page-content-header .links{
+  display: flex;
+  justify-content: end;
+}
+
 /********************************************Users page End********************************************/
 
 

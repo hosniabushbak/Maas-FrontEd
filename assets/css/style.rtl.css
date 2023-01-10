@@ -45,6 +45,14 @@ body{
     padding-right: 0;
   }
 
+  .users-page .card-toolbar .btn{
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .users-page .page-content-header .links{
+    display: flex;
+    justify-content: end;
+  }
 
 
 

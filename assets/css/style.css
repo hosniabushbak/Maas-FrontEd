@@ -229,6 +229,7 @@ a.user-name{
   font-weight: 600;
   color: #371C52;
   margin-top: 30px;
+  text-transform: capitalize;
 }
 .add-role .add-rolespan.role-name{
    color: #222222;
@@ -347,6 +348,62 @@ border:1px solid #371C52 !important;
   color: var(--bs-body-color);
 }
 /*****************************************Add new user End********************************/
+/********************************************Users page Start*******************************************/
+.users-page .table-title{
+  margin-top: 0;
+}
+.users-page .page-content-header{
+  margin: 40px 0px 20px 10px;
+}
+.users-page .page-content-header .links a.users-link{
+  display: inline-block;
+  background-color: #5D3585;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+.users-page .search-inputs input{
+  margin-right: 10px;
+  background-color: #fff;
+  border:1px solid #EEEEEE;
+  padding: 10px 15px !important;
+}
+.users-page .card-toolbar .btn{
+  margin-right: 10px;
+ border-radius: 5px !important;
+ padding: 10px 15px !important;
+ height: unset !important;
+}
+.users-page .card-toolbar .btn.reset{
+  border:1px solid #371C52 !important;
+  background: transparent !important;
+  color: #371C52;
+}
+.users-page .users-table span.active{
+  display: inline-block;
+background: #0DCD98;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+.users-page .users-table span.inactive{
+  display: inline-block;
+background: #ccc;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+.users-page table.dataTable thead > tr > th.sorting{
+  padding-right: 10px;
+  text-align: center;
+  color: #371C52;
+}
+.users-page .table.table-row-dashed tr{
+  font-size: 0.9rem;
+  text-align: center;
+}
+/********************************************Users page End********************************************/
 
 
 

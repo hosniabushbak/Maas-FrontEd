@@ -2289,231 +2289,333 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Main column-->
 								<div class="d-flex flex-column flex-row-fluid gap-7 gap-lg-10">
 									<h2 class="table-title">Organization Profile</h2>
-									<!--begin::General options-->
-									<div class="card card-flush py-4">
-										<!--begin::Card header-->
-										<div class="card-header">
-											<div class="card-title">
-												<h2>General Information</h2>
-											</div>
-										</div>
-										<!--end::Card header-->
+									<!----------------------------------------Tabs Start---------------------------->
+									<div class="card card-flush">
 										<!--begin::Card body-->
-										<div class="card-body pt-0">
-											<!-------------------Image Input----------------->
-											<div class="card-body text-center pt-0">
-												<!--begin::Image input-->
-												<!--begin::Image input placeholder-->
-												<style>.image-input-placeholder { background-image: url('assets/media/svg/files/blank-image.svg'); } [data-theme="dark"] .image-input-placeholder { background-image: url('assets/media/svg/files/blank-image-dark.svg'); }</style>
-												<!--end::Image input placeholder-->
-												<div class="image-input image-input-empty image-input-outline image-input-placeholder mb-3" data-kt-image-input="true" style="<br /> <b>Warning</b>: Undefined variable $imageBg in <b>C:\wamp64\www\keenthemes\core\html\dist\view\pages\apps\ecommerce\catalog\edit-product\_thumbnail.php</b> on line <b>30</b><br />">
-													<!--begin::Preview existing avatar-->
-													<div class="image-input-wrapper w-150px h-150px"></div>
-													<!--end::Preview existing avatar-->
-													<!--begin::Label-->
-													<label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-kt-initialized="1">
-														<i class="bi bi-pencil-fill fs-7"></i>
-														<!--begin::Inputs-->
-														<input type="file" name="avatar" accept=".png, .jpg, .jpeg">
-														<input type="hidden" name="avatar_remove">
-														<!--end::Inputs-->
-													</label>
-													<!--end::Label-->
-													<!--begin::Cancel-->
-													<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" data-kt-initialized="1">
-														<i class="bi bi-x fs-2"></i>
-													</span>
-													<!--end::Cancel-->
-													<!--begin::Remove-->
-													<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" data-kt-initialized="1">
-														<i class="bi bi-x fs-2"></i>
-													</span>
-													<!--end::Remove-->
-												</div>
-												<!--end::Image input-->
-												<!--begin::Description-->
-												<div class="text-muted fs-7">Upload your comapny Logo</div>
-												<!--end::Description-->
-											</div>
+										<div class="card-body">
+											<!--begin:::Tabs-->
+											<ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x border-transparent fs-4 fw-semibold mb-15"
+												role="tablist">
+												<!--begin:::Tab item-->
+												<li class="nav-item" role="presentation">
+													<a class="nav-link text-active-primary pb-5 active"
+														data-bs-toggle="tab" href="#kt_ecommerce_settings_general"
+														aria-selected="true" role="tab">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen001.svg-->
+														<span class="svg-icon svg-icon-2 me-2">
+															<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0173 9H15.3945C14.2833 9 13.263 9.61425 12.7431 10.5963L12.154 11.7091C12.0645 11.8781 12.1072 12.0868 12.2559 12.2071L12.6402 12.5183C13.2631 13.0225 13.7556 13.6691 14.0764 14.4035L14.2321 14.7601C14.2957 14.9058 14.4396 15 14.5987 15H18.6747C19.7297 15 20.4057 13.8774 19.912 12.945L18.6686 10.5963C18.1487 9.61425 17.1285 9 16.0173 9Z" fill="currentColor"></path>
+																<rect opacity="0.3" x="14" y="4" width="4" height="4" rx="2" fill="currentColor"></rect>
+																<path d="M4.65486 14.8559C5.40389 13.1224 7.11161 12 9 12C10.8884 12 12.5961 13.1224 13.3451 14.8559L14.793 18.2067C15.3636 19.5271 14.3955 21 12.9571 21H5.04292C3.60453 21 2.63644 19.5271 3.20698 18.2067L4.65486 14.8559Z" fill="currentColor"></path>
+																<rect opacity="0.3" x="6" y="5" width="6" height="6" rx="3" fill="currentColor"></rect>
+															</svg>
+														</span>
+														<!--end::Svg Icon-->General Information
+													</a>
+												</li>
+												<!--end:::Tab item-->
+												<!--begin:::Tab item-->
+												<li class="nav-item" role="presentation">
+													<a class="nav-link text-active-primary pb-5" data-bs-toggle="tab"
+														href="#kt_ecommerce_settings_store" aria-selected="false"
+														tabindex="-1" role="tab">
+														<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm004.svg-->
+														<span class="svg-icon svg-icon-2 me-2">
+															<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path opacity="0.3" d="M18.4 5.59998C21.9 9.09998 21.9 14.8 18.4 18.3C14.9 21.8 9.2 21.8 5.7 18.3L18.4 5.59998Z" fill="currentColor"></path>
+																<path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM19.9 11H13V8.8999C14.9 8.6999 16.7 8.00005 18.1 6.80005C19.1 8.00005 19.7 9.4 19.9 11ZM11 19.8999C9.7 19.6999 8.39999 19.2 7.39999 18.5C8.49999 17.7 9.7 17.2001 11 17.1001V19.8999ZM5.89999 6.90002C7.39999 8.10002 9.2 8.8 11 9V11.1001H4.10001C4.30001 9.4001 4.89999 8.00002 5.89999 6.90002ZM7.39999 5.5C8.49999 4.7 9.7 4.19998 11 4.09998V7C9.7 6.8 8.39999 6.3 7.39999 5.5ZM13 17.1001C14.3 17.3001 15.6 17.8 16.6 18.5C15.5 19.3 14.3 19.7999 13 19.8999V17.1001ZM13 4.09998C14.3 4.29998 15.6 4.8 16.6 5.5C15.5 6.3 14.3 6.80002 13 6.90002V4.09998ZM4.10001 13H11V15.1001C9.1 15.3001 7.29999 16 5.89999 17.2C4.89999 16 4.30001 14.6 4.10001 13ZM18.1 17.1001C16.6 15.9001 14.8 15.2 13 15V12.8999H19.9C19.7 14.5999 19.1 16.0001 18.1 17.1001Z" fill="currentColor"></path>
+															</svg>
+														</span>
+														<!--end::Svg Icon-->API
+													</a>
+												</li>
+												<!--end:::Tab item-->
 											
-											<!--begin::Input group-->
-											<div class="mb-10 fv-row">
 												
-												<!--begin::Input-->
-												<input type="text" name="category_name" class="form-control mb-2"
-													placeholder="Full Name" value="" />
-												<!--end::Input-->
-
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="mb-10 fv-row">
-												
-												<!--begin::Input-->
-												<input type="text" name="category_name" class="form-control mb-2"
-													placeholder="Organization Name" value="" />
-												<!--end::Input-->
-
-											</div>
-											<!--end::Input group-->
-											<!--begin::Input group-->
-											<div class="mb-10 fv-row">
-												
-												<!--begin::Input-->
-												<input type="email" name="category_name" class="form-control mb-2"
-													placeholder="Email" value="" />
-												<!--end::Input-->
-
-											</div>
-
-											<!--end::Input group-->
-											<!-------------------------------->
-											<div class="row ">
-												<!--begin::Col-->
-												<div class="col-md-6 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="Address" value="" />
-														<!--end::Input-->
-
-													</div>
-												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-md-6 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="Street Name"
-															value="" />
-														<!--end::Input-->
-
-													</div>
-												</div>
-												<!--end::Col-->
-											</div>
-
-											<!-------------------------------->
-											<div class="row ">
-												<!--begin::Col-->
-												<div class="col-md-6 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="Building"
-															value="" />
-														<!--end::Input-->
-
-													</div>
-												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-md-6 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="City" value="" />
-														<!--end::Input-->
-
-													</div>
-												</div>
-												<!--end::Col-->
-											</div>
-
-											<!-------------------------------->
-											<div class="row ">
-												<!--begin::Col-->
-												<div class="col-md-6 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="Postal code"
-															value="" />
-														<!--end::Input-->
-
-													</div>
-												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-md-6 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="Country" value="" />
-														<!--end::Input-->
-
-													</div>
-												</div>
-												<!--end::Col-->
-											</div>
-											<!-------------------------------->
-											<div class="row ">
-												<!--begin::Col-->
-												<div class="col-md-2 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														<div
-															class="form-check form-check-custom form-check-success form-check-solid">
-															<input class="form-check-input" type="checkbox" value=""
-																checked />
-															<label class="form-check-label" for="">
-																Is registered VAT ?
-															</label>
+											
+											</ul>
+											<!--end:::Tabs-->
+											<!--begin:::Tab content-->
+											<div class="tab-content" id="myTabContent">
+												<!--begin:::Tab pane-->
+												<div class="tab-pane fade show active"
+													id="kt_ecommerce_settings_general" role="tabpanel">
+													<!--begin::General options-->
+													<div class="card-flush py-4">
+														<!--begin::Card header-->
+														<div class="card-header">
+															<div class="card-title">
+																<h2>General Information</h2>
+															</div>
 														</div>
-													</div>
-												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-md-6 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
+														<!--end::Card header-->
+														<!--begin::Card body-->
+														<div class="card-body pt-0">
+															<!-------------------Image Input----------------->
+															<div class="card-body text-center pt-0">
+																<!--begin::Image input-->
+																<!--begin::Image input placeholder-->
+																<style>
+																	.image-input-placeholder {
+																		background-image: url('assets/media/svg/files/blank-image.svg');
+																	}
 
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="VAT Number" value=""
-															style="display:inline-block;" />
-														<!--end::Input-->
+																	[data-theme="dark"] .image-input-placeholder {
+																		background-image: url('assets/media/svg/files/blank-image-dark.svg');
+																	}
+																</style>
+																<!--end::Image input placeholder-->
+																<div class="image-input image-input-empty image-input-outline image-input-placeholder mb-3"
+																	data-kt-image-input="true"
+																	style="<br /> <b>Warning</b>: Undefined variable $imageBg in <b>C:\wamp64\www\keenthemes\core\html\dist\view\pages\apps\ecommerce\catalog\edit-product\_thumbnail.php</b> on line <b>30</b><br />">
+																	<!--begin::Preview existing avatar-->
+																	<div class="image-input-wrapper w-150px h-150px">
+																	</div>
+																	<!--end::Preview existing avatar-->
+																	<!--begin::Label-->
+																	<label
+																		class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow"
+																		data-kt-image-input-action="change"
+																		data-bs-toggle="tooltip"
+																		data-kt-initialized="1">
+																		<i class="bi bi-pencil-fill fs-7"></i>
+																		<!--begin::Inputs-->
+																		<input type="file" name="avatar"
+																			accept=".png, .jpg, .jpeg">
+																		<input type="hidden" name="avatar_remove">
+																		<!--end::Inputs-->
+																	</label>
+																	<!--end::Label-->
+																	<!--begin::Cancel-->
+																	<span
+																		class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow"
+																		data-kt-image-input-action="cancel"
+																		data-bs-toggle="tooltip"
+																		data-kt-initialized="1">
+																		<i class="bi bi-x fs-2"></i>
+																	</span>
+																	<!--end::Cancel-->
+																	<!--begin::Remove-->
+																	<span
+																		class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow"
+																		data-kt-image-input-action="remove"
+																		data-bs-toggle="tooltip"
+																		data-kt-initialized="1">
+																		<i class="bi bi-x fs-2"></i>
+																	</span>
+																	<!--end::Remove-->
+																</div>
+																<!--end::Image input-->
+																<!--begin::Description-->
+																<div class="text-muted fs-7">Upload your comapny Logo
+																</div>
+																<!--end::Description-->
+															</div>
 
+															<!--begin::Input group-->
+															<div class="mb-10 fv-row">
+
+																<!--begin::Input-->
+																<input type="text" name="category_name"
+																	class="form-control mb-2" placeholder="Full Name"
+																	value="" />
+																<!--end::Input-->
+
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="mb-10 fv-row">
+
+																<!--begin::Input-->
+																<input type="text" name="category_name"
+																	class="form-control mb-2"
+																	placeholder="Organization Name" value="" />
+																<!--end::Input-->
+
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="mb-10 fv-row">
+
+																<!--begin::Input-->
+																<input type="email" name="category_name"
+																	class="form-control mb-2" placeholder="Email"
+																	value="" />
+																<!--end::Input-->
+
+															</div>
+
+															<!--end::Input group-->
+															<!-------------------------------->
+															<div class="row ">
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2"
+																			placeholder="Address" value="" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2"
+																			placeholder="Street Name" value="" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+															</div>
+
+															<!-------------------------------->
+															<div class="row ">
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2"
+																			placeholder="Building" value="" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2" placeholder="City"
+																			value="" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+															</div>
+
+															<!-------------------------------->
+															<div class="row ">
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2"
+																			placeholder="Postal code" value="" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2"
+																			placeholder="Country" value="" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+															</div>
+															<!-------------------------------->
+															<div class="row ">
+																<!--begin::Col-->
+																<div class="col-md-3 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+																		<div
+																			class="form-check form-check-custom form-check-success form-check-solid">
+																			<input class="form-check-input"
+																				type="checkbox" value="" checked />
+																			<label class="form-check-label" for="">
+																				Is registered VAT ?
+																			</label>
+																		</div>
+																	</div>
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2"
+																			placeholder="VAT Number" value=""
+																			style="display:inline-block;" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+															</div>
+														
+														</div>
+														<!--end::Card header-->
 													</div>
+													<!--end::General options-->
 												</div>
-												<!--end::Col-->
+												<!--end:::Tab pane-->
+												<!--begin:::Tab pane-->
+												<div class="tab-pane fade" id="kt_ecommerce_settings_store"
+													role="tabpanel">
+													<!-------------------------------->
+															<div class="row ">
+
+																<!--begin::Col-->
+																<div class="col-md-10 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+
+																		<!--begin::Input-->
+																		<input type="text" name="category_name"
+																			class="form-control mb-2"
+																			placeholder="ApI Key(Read only)" value="" />
+																		<!--end::Input-->
+
+																	</div>
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-md-2 fv-row fv-plugins-icon-container">
+																	<div class="mb-10 fv-row">
+																		<button type="submit"
+																			class="btn btn-primary generate ">
+																			<span
+																				class="indicator-label">Generate</span>
+
+																		</button>
+																	</div>
+																</div>
+																<!--end::Col-->
+															</div>
+												</div>
+												<!--end:::Tab pane-->
+												
+											
+												
 											</div>
-											<!-------------------------------->
-											<div class="row ">
-
-												<!--begin::Col-->
-												<div class="col-md-10 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-
-														<!--begin::Input-->
-														<input type="text" name="category_name"
-															class="form-control mb-2" placeholder="ApI Key(Read only)"
-															value="" />
-														<!--end::Input-->
-
-													</div>
-												</div>
-												<!--end::Col-->
-												<!--begin::Col-->
-												<div class="col-md-2 fv-row fv-plugins-icon-container">
-													<div class="mb-10 fv-row">
-														<button type="submit" class="btn btn-primary generate ">
-															<span class="indicator-label">Generate</span>
-
-														</button>
-													</div>
-												</div>
-												<!--end::Col-->
-											</div>
+											<!--end:::Tab content-->
 										</div>
-										<!--end::Card header-->
+										<!--end::Card body-->
 									</div>
-									<!--end::General options-->
+									<!-----------------------------------------Tabs End----------------------------->
 
 									<div class=" page-buttuns">
 										<!----------------------------------->
@@ -2541,7 +2643,7 @@ License: For each use you must have a valid license purchased only from above li
 										</div>
 										<!----------------------------------->
 
-										
+
 									</div>
 								</div>
 								<!--end::Main column-->

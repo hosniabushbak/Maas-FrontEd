@@ -421,7 +421,9 @@ border-radius: 50%;
     background: transparent !important;
     color: #371C52;
 }
-
+.card .card-body{
+  margin-top: 15px;
+}
 
 
 

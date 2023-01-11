@@ -262,7 +262,7 @@ a.user-name{
 .table-title{
   font-size: 20px;
   font-weight: 600;
-  color: #371C52;
+  color: var(--mainfontColor);
   margin: 30px 20px 0;
   text-transform: capitalize;
 }
@@ -281,7 +281,7 @@ a.user-name{
 
 .add-role .table#kt_datatable_example_1 thead{
   background-color: #F8F9FC !important;
-  color: #371C52 !important;
+  color:var(--mainColor) !important;
   text-align: center;
 }
 .add-role .table#kt_datatable_example_1{
@@ -428,13 +428,13 @@ border:1px solid var(--mainColor) !important;
  height: unset !important;
 }
 .users-page .card-toolbar .btn.reset{
-  border:1px solid #371C52 !important;
+  border:1px solid var(--mainColor) !important;
   background: transparent !important;
-  color: #371C52;
+  color: var(--mainColor);
 }
 .users-page .users-table span.active{
   display: inline-block;
-background: #0DCD98;
+background: var(--mainColor);
 width: 10px;
 height: 10px;
 border-radius: 50%;
@@ -449,7 +449,7 @@ border-radius: 50%;
 .users-page table.dataTable thead > tr > th.sorting{
   padding-right: 10px;
   text-align: center;
-  color: #371C52;
+  color: var(--mainColor);
 }
 .users-page .table.table-row-dashed tr{
   font-size: 0.9rem;

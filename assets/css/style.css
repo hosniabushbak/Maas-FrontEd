@@ -146,7 +146,7 @@ h1.text-dark{
 /*******************authentication page edit End**************************************/
 /*******************************************************Index page Start********************************/
 .header .header-brand{
-  background-color: #fff;
+  background-color: var(--mainfontColor);
 }
 .h-lg-25px.logo-high{
   height: 40px !important;
@@ -175,11 +175,11 @@ a.user-name{
   display: none !important;
 }
 .aside{
-  background-color: #fff;
+  background-color:var(--mainfontColor);
 }
 
 .aside-menu .menu .menu-item .menu-link .menu-title{
-  color:var(--mainfontColor)!important;
+color: #fff;
   font-weight: 600;
 }
 .aside-menu .menu .menu-item .menu-link .menu-icon .svg-icon:hover{
@@ -215,6 +215,9 @@ a.user-name{
 .aside-menu .menu .menu-item .menu-link.new-link{
   background-color: #F7F8FC !important;
   position: relative;
+}
+.aside-menu .menu .menu-item .menu-link.new-link .menu-title{
+  color: var(--mainfontColor);
 }
 .aside-menu .menu .menu-item .menu-link.new-link:hover{
   background-color: var(--mainColor)!important;

@@ -5,6 +5,7 @@
   --mainfontColor:#103349;
   --subFontColor:#4D565C;
  --bgHover:#3C8482;
+ --white:#ffffff;
 }
 /*******************************************************/
 body {
@@ -503,7 +504,33 @@ border-radius: 50%;
   background-color: var(--mainColor);
 }
 /******************************Footer*************************/
-
+/*********************************Chart Of Account Start*******************/
+.chartAccount .nav-line-tabs .nav-item .nav-link.active{
+  background-color: var(--mainColor);
+  color: var( --white) !important;
+  padding: 10px;
+  border-bottom:none;
+  border:1px solid var(--mainColor) !important;
+}
+.chartAccount .nav-line-tabs .nav-item .nav-link:hover{
+  background-color: var(--bgHover) !important;
+  transition: 0.7s ease-in-out;
+  border-bottom:none;
+}
+.chartAccount .nav-line-tabs .nav-item .nav-link{
+  background: #F8F7FA;
+  padding: 10px;
+  border-bottom:none;
+  border:1px solid #BFBFBF;
+  margin: 0 0.5rem;
+}
+.chartAccount .nav-line-tabs .nav-item .nav-link:hover{
+  color: var(--white) !important;
+  background-color: var(--bgHover) !important;
+  transition: 0.5s ease-in-out;
+  border:1px solid var(--bgHover);
+}
+/*********************************Chart Of Account End*********************/
 
 
 

@@ -523,6 +523,8 @@ border-radius: 50%;
   border-bottom:none;
   border:1px solid #BFBFBF;
   margin: 0 0.5rem;
+  font-size: 1rem;
+  
 }
 .chartAccount .nav-line-tabs .nav-item .nav-link:hover{
   color: var(--white) !important;

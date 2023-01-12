@@ -1,22 +1,36 @@
+/*************************Varibels*********************/
+:root{
+  --mainColor:#48A8A6;
+  --subColor:#ef9e5c;
+  --mainfontColor:#103349;
+  --subFontColor:#4D565C;
+ --bgHover:#3C8482;
+ --white:#ffffff;
+}
+/*******************************************************/
 body {
     background-color:#fff;
     overflow-x: hidden;
+    color: var(--mainfontColor);
 }
 .scrolltop{
-  background-color:#462768;
+  background-color:var(--mainColor);
 }
 .scrolltop:hover{
-  background-color:#462768 !important;
+  background-color:var(--mainColor) !important;
 }
 #kt_content_container{
   padding-bottom: 50px;
+}
+.text-gray-900{
+  color: var(--mainfontColor);
 }
 /*******************authentication page edit Start*************************************/
 .h-130px{
     height: 130px !important;
 }
 .form-check-custom.form-check-success .form-check-input:checked {
-    background-color:#462768 !important;
+    background-color:var(--mainColor) !important;
 }
 
 #kt_sign_in_form,
@@ -30,7 +44,7 @@ body {
 }
 .form-heading{
     background: #FAF9FA;
-    border-radius: 20px;
+    border-radius:15px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -60,13 +74,14 @@ h1.text-dark{
   }
  .btn.btn-primary,
  .btn-primary{
-    background-color: #462768!important;
+    background-color: var(--mainColor)!important;
     color: #fff;
-    border-radius: 40px;
-    height: 50px !important;
+   /* border-radius: 40px;
+    height: 50px !important;*/
   }
   .btn.btn-primary:hover:not(.btn-active){
-    background-color: #241239!important;
+    background-color: var(--bgHover)!important;
+    transition: 0.7s ease-in-out;
   }
 
   #kt_sign_in_form .form-content .keep-sign{
@@ -79,20 +94,29 @@ h1.text-dark{
   #kt_sign_in_form .form-content a.forget-password{
     display: inline-block;
     margin-left: 115px;
-    color: #0C1B32 !important;
+    color: var(--mainfontColor)!important;
     text-decoration: underline;
+  }
+  #kt_sign_in_form .form-content a.forget-password:hover{
+    text-decoration: underline !important;
+    color: var(--mainColor) !important;
+    transition: 0.7s ease-in-out;
   }
   #kt_sign_in_form .form-content .text-gray-500,
   .text-muted,
   .link-primary{
-    color: #0C1B32 !important;
+    color:var(    --mainfontColor)!important;
   }
   .link-primary:hover{
-    color: #462768!important;
+    color:var(--mainColor)!important;
   }
   #kt_sign_in_form .form-content .text-gray-500 a{
-    color: #0C1B32 !important;
+    color: var(--mainfontColor)!important;
     font-weight: bold;
+  }
+  #kt_sign_in_form .form-content .text-gray-500 a:hover{
+    color: var(--mainColor) !important;
+    transition: 0.7s ease-in-out;
   }
   .flex-center.our-style{
     justify-content: start!important;
@@ -115,17 +139,22 @@ h1.text-dark{
 
 #kt_password_reset_submit{
   width: 100%;
+  margin-right: 0 !important;
+}
+.btn.btn-active-color-primary:hover:not(.btn-active){
+  color: var(--mainColor) !important;
 }
 /*******************authentication page edit End**************************************/
 /*******************************************************Index page Start********************************/
 .header .header-brand{
-  background-color: #fff;
+  background-color: var(--mainfontColor);
 }
 .h-lg-25px.logo-high{
   height: 40px !important;
 }
-h1.text-dark a{
-  color: #131313;
+h1.text-dark a,
+h1.text-dark {
+  color:var(--mainfontColor);
 }
 .aside-user .symbol img{
   border-radius: 50%;
@@ -147,17 +176,18 @@ a.user-name{
   display: none !important;
 }
 .aside{
-  background-color: #fff;
+  background-color:var(--mainfontColor);
 }
 
 .aside-menu .menu .menu-item .menu-link .menu-title{
-  color: #131313 !important;
+color: #fff;
+  font-weight: 600;
 }
 .aside-menu .menu .menu-item .menu-link .menu-icon .svg-icon:hover{
-  color:#131313
+  color:var(--mainfontColor);
 }
 .aside-menu .menu .menu-item .menu-link.active{
-  background-color: #5D3585;
+  background-color:var(--mainColor);
   color: #fff !important;
   /*border-right: 8px solid #3d8fb4 !important;*/
 }
@@ -167,8 +197,11 @@ a.user-name{
 .aside-menu .menu .menu-item .menu-link.active .menu-icon .svg-icon{
   color: #fff !important;
 }
+.aside-menu .menu .menu-item .menu-link .menu-icon .svg-icon svg {
+  color: var(--mainColor);
+}
 .aside-menu .menu .menu-item .menu-link:hover{
-  background-color: #5D3585 !important;
+  background-color: var(--mainColor) !important;
   color: #fff !important;
   /*border-right: 8px solid #3d8fb4 !important;*/
 }
@@ -184,8 +217,11 @@ a.user-name{
   background-color: #F7F8FC !important;
   position: relative;
 }
+.aside-menu .menu .menu-item .menu-link.new-link .menu-title{
+  color: var(--mainfontColor);
+}
 .aside-menu .menu .menu-item .menu-link.new-link:hover{
-  background-color: #5D3585 !important;
+  background-color: var(--mainColor)!important;
   color: #fff !important;
   /*border-right: 8px solid #3d8fb4 !important;*/
 }
@@ -195,7 +231,7 @@ a.user-name{
 } 
 .aside-menu .menu .menu-item .menu-link.new-link .new-feature{
   display: inline-block;
-  background-color: #EC4321;
+  background-color:var( --subColor);
   color: #fff;
   border-radius: 26px;
   padding: 2px 10px;
@@ -218,6 +254,9 @@ a.user-name{
   background-color:transparent !important;
   border-right: none!important;
 }
+.aside-user.help-center svg path{
+  fill:var(--mainColor);
+}
 /*******content ****/
 .content {
   background: #F8F7FA;
@@ -227,15 +266,16 @@ a.user-name{
 .table-title{
   font-size: 20px;
   font-weight: 600;
-  color: #371C52;
-  margin-top: 30px;
+  color: var(--mainfontColor);
+  margin: 30px 20px 0;
+  text-transform: capitalize;
 }
-.add-role .add-rolespan.role-name{
-   color: #222222;
-   font-size: 22px;
+ .add-role span.role-name{
+   color: var(--mainfontColor);
+   font-size: 1.2rem;
    display: inline-block;
-   padding: 0 10px;
- 
+   padding: 0 5px;
+ font-weight: 600;
 }
 .add-role .search-roll{
   background-color: #fff;
@@ -245,7 +285,7 @@ a.user-name{
 
 .add-role .table#kt_datatable_example_1 thead{
   background-color: #F8F9FC !important;
-  color: #371C52 !important;
+  color:var(--mainColor) !important;
   text-align: center;
 }
 .add-role .table#kt_datatable_example_1{
@@ -259,13 +299,17 @@ a.user-name{
   margin: 10px 10px;
 }
 .add-role .table-buttun .btn.save{
-  background-color: #371C52;
+  background-color: var(--mainColor);
   color: #fff;
 }
+.add-role .table-buttun .btn.save:hover{
+  background-color: var(--bgHover);
+  transition: 0.7s ease-in-out;
+}
 .add-role .table-buttun .btn.cancel{
-border:1px solid #371C52 !important;
+border:1px solid var(--mainColor) !important;
   background-color: #fff;
-  color: #371C52;
+  color: var(--mainColor);
 }
 /*
 .add-role table.dataTable thead{
@@ -276,11 +320,15 @@ border:1px solid #371C52 !important;
 /*******************************************************add-role End********************/
 /**************************************content page Start********************************/
 #kt_body .error-btn{
-  color: #371C52 !important;
+  color: var(--bgHover) !important;
   background: #EEEEEE !important;
   padding: 15px 60px;
   font-weight: 600 !important;
   font-size: 16px;
+}
+#kt_body .error-btn:hover{
+  transform: scale(1.1);
+  transition: 0.7s ease-in-out;
 }
 /**************************************content page End**********************************/
 /*****************************************Add new User start*****************************/
@@ -294,14 +342,17 @@ border:1px solid #371C52 !important;
 }
 .new-user-form h3{
   font-size: 22px;
-  color: #222222;
+  color: var(--mainColor);
 }
 .new-user-form span.note{
-  color: #EC4321;
+  color: var(--subColor);
   font-size: 16px;
   display: block;
   padding-bottom: 20px;
   border-bottom: 1px solid #F2F2F2;
+}
+.required:after{
+  color: var(--subColor);
 }
 .new-user-form .add-user{
   margin-top: 20px;
@@ -319,39 +370,169 @@ border:1px solid #371C52 !important;
   border-radius: 5px !important;
 }
 .new-user-form .add-user .btn{
-  background-color: #ccc;
+  background-color: transparent;
+  border: 1px solid var(--mainColor) !important;
   border-radius: 5px;
   padding: 10px 30px;
   display: inline-block;
   margin: 10px 10px;
   border-bottom: none;
+  color: var(--mainfontColor);
 }
+
 .new-user-form .add-user .btn.save{
-  background-color: #371C52;
+  background-color: var(--mainColor);
   color: #fff;
 }
+.new-user-form .add-user .btn.save:hover{
+  background: var(--bgHover);
+}
 .new-user-form .add-user .btn.cancel{
-  border:1px solid #371C52 !important;
+  border:1px solid var(--mainColor) !important;
     background-color: #fff;
-    color: #371C52;
+    color: var(--mainColor);
   }
   .new-user-form .add-user .form-check{
     padding-left: 0;
   }
 
   .new-user-form .add-user .form-check-custom.form-check-danger .form-check-input:checked {
-    background-color: #371C52;
+    background-color: var(--mainColor);
 }
 .new-user-form .add-user .form-check-custom.form-check-danger span{
   font-size:16px !important;
   color: var(--bs-body-color);
 }
 /*****************************************Add new user End********************************/
+/********************************************Users page Start*******************************************/
+.users-page .table-title{
+  margin-top: 0;
+}
+.users-page .page-content-header{
+  margin: 40px 0px 20px 10px;
+}
+.users-page .page-content-header .links a.users-link{
+  display: inline-block;
+  background-color:var(--mainColor);
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+.users-page .search-inputs input{
+  margin-right: 10px;
+  background-color: #fff;
+  border:1px solid #EEEEEE;
+  padding: 10px 15px !important;
+}
+.users-page .card-toolbar .btn{
+  margin-right: 10px;
+ border-radius: 5px !important;
+ padding: 10px 15px !important;
+ height: unset !important;
+}
+.users-page .card-toolbar .btn.reset{
+  border:1px solid var(--mainColor) !important;
+  background: transparent !important;
+  color: var(--mainColor);
+}
+.users-page .users-table span.active{
+  display: inline-block;
+background: var(--mainColor);
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+.users-page .users-table span.inactive{
+  display: inline-block;
+background: #ccc;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+.users-page table.dataTable thead > tr > th.sorting{
+  padding-right: 10px;
+  text-align: center;
+  color: var(--mainColor);
+}
+.users-page .table.table-row-dashed tr{
+  font-size: 0.9rem;
+  text-align: center;
+}
+.users-page .page-content-header .links{
+  display: flex;
+  justify-content: end;
+}
 
-
-
-
-
+/********************************************Users page End********************************************/
+/***************************************Organization profile********************************/
+.btn.generate{
+  width: 100%;
+}
+.right{
+  text-align: right;
+}
+.right .cancel{
+  border: 1px solid var(--mainColor) !important;
+    background: transparent !important;
+    color: var(--mainColor);
+}
+.card .card-body{
+  margin-top: 15px;
+}
+.nav-line-tabs .nav-item .nav-link.active{
+  border-bottom: 1px solid var(--bgHover);
+  color: var(--mainColor) !important;
+}
+.nav-line-tabs .nav-item .nav-link:hover:not(.disabled){
+  border-bottom: 1px solid var(--bgHover);
+}
+.nav-line-tabs .nav-item .nav-link.active svg path{
+  fill: var(--mainColor) !important;
+}
+/******************************Footer***********************/
+.menu-hover-primary .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here),
+ .menu-hover-primary .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here){
+  color: var(--mainColor);
+  font: 600;
+}
+.menu-state-color .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here),
+.menu-state-color .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here){
+  color: var(--mainColor);
+}
+.page-link.active, .active > .page-link{
+  background-color: var(--mainColor);
+}
+/******************************Footer*************************/
+/*********************************Chart Of Account Start*******************/
+.chartAccount .nav-line-tabs .nav-item .nav-link.active{
+  background-color: var(--mainColor);
+  color: var( --white) !important;
+  padding: 10px;
+  border-bottom:none;
+  border:1px solid var(--mainColor) !important;
+}
+.chartAccount .nav-line-tabs .nav-item .nav-link:hover{
+  background-color: var(--bgHover) !important;
+  transition: 0.7s ease-in-out;
+  border-bottom:none;
+}
+.chartAccount .nav-line-tabs .nav-item .nav-link{
+  background: #F8F7FA;
+  padding: 10px;
+  border-bottom:none;
+  border:1px solid #BFBFBF;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  
+}
+.chartAccount .nav-line-tabs .nav-item .nav-link:hover{
+  color: var(--white) !important;
+  background-color: var(--bgHover) !important;
+  transition: 0.5s ease-in-out;
+  border:1px solid var(--bgHover);
+}
+/*********************************Chart Of Account End*********************/
 
 
 
@@ -382,6 +563,9 @@ border:1px solid #371C52 !important;
     .aside-user.top-user{
       display: none !important;
     }
+    .page-buttuns .justify-content-between{
+      justify-content: unset !important;
+    }
 }
 
 
@@ -391,6 +575,12 @@ border:1px solid #371C52 !important;
   .dropdown-menu[data-bs-popper]{
     left: unset;
     right: 0;
+  }
+  .aside-user.mobile-user{
+    display: block!important;
+  }
+  .aside-user.top-user{
+    display: none !important;
   }
 
 }
